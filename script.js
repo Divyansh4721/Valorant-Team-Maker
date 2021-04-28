@@ -3,7 +3,7 @@ function RandomTeam(items) {
 }
 
 let flag=true;
-let arr = ['All Stars','Amigos','Bannermen','Bosses','Dominators','Elite','Heatwave','Hustle','Legends','Maniacs','Monarchy','Naturals','Outliers','Power','Revolution','Shakedown','Titans','Vikings'];
+let arr = ['DG','GODzZz','MAKJ','Kingsmen','INTROSEC','HS','Lethal Esports','Maulik','Scar','Crew of Honoured','CG eSports','ACE'];
 function buttonclicked(){
   if(flag){
     function removefrom(a){
@@ -19,7 +19,6 @@ function buttonclicked(){
     $('#Valo')[0].innerHTML="<div id='table1'><span>Team 1</span><br></div><div id='table2'><span>Team 2</span><br></div>";
     while(arr.length>1)
     {
-      console.log(1);
       let a=RandomTeam(arr);
       removefrom(a);
       let b=RandomTeam(arr);
@@ -44,7 +43,7 @@ function addname() {
 
 
 {
-  for (var i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length; i++) {
     $('#Valo').append(arr[i]+'<br>');
   }
   let a=document.querySelector('#button');
