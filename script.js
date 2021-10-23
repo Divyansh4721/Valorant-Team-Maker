@@ -3,7 +3,7 @@ function RandomTeam(items) {
 }
 
 let flag=true;
-let arr = ['DG','GODzZz','MAKJ','Kingsmen','INTROSEC','HS','Lethal Esports','Maulik','Scar','Crew of Honoured','CG eSports','ACE','Godspeed','RadioActive','Bonkers','Whiskey'];
+let arr = ['Night Raid','100 Throwers','Ligma','Gamenix','Beta Division','Team DeX','Gamenix1',' NazgÃ»ls'];
 function buttonclicked(){
   if(flag){
     function removefrom(a){
